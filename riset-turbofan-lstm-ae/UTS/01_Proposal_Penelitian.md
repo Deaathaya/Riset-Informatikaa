@@ -7,8 +7,7 @@ Pemantauan kondisi mesin turbofan berbasis data sensor penting untuk pemeliharaa
 
 ## 2. Rumusan Masalah
 1. Bagaimana kinerja LSTM-AE untuk deteksi dini degradasi turbofan bila kondisi operasi ditangani dengan normalisasi per regime operasi (Strategi A)?
-2. Bagaimana kinerjanya bila kondisi operasi dimasukkan sebagai input tambahan dengan normalisasi global (Strategi B)?
-3. Bagaimana kedua strategi dibandingkan dengan baseline Isolation Forest?
+2. Bagaimana kinerjanya bila kondisi operasi dimasukkan sebagai input tambahan dengan normalisasi global dan bagaimana kedua strategi dibandingkan dengan baseline Isolation Forest?
 
 ## 3. Tujuan
 Membandingkan Strategi A dan Strategi B pada arsitektur LSTM-AE yang sama, berdasarkan false alarm rate, recall fase akhir, dan lead time, pada C-MAPSS FD002 dan FD004.
